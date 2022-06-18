@@ -1,0 +1,41 @@
+.container{
+  margin-bottom: 100px;
+}
+.row:first-of-type b{
+  margin-left: 5px;
+}
+.row:first-of-type .col-3{
+  background-color: rgba(230, 229, 229, 0.76);
+  width: 23%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.row:first-of-type .col-3:hover{
+  background-color: pink;
+  color: black;
+}
+.row:last-of-type{
+  background-color: rgba(230, 229, 229, 0.76);
+  margin-top: 50px;
+  border-radius: 10px;
+}
+.row:last-of-type .col-3{
+  width: 23%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.row:last-of-type .col-3 div{
+  background-color: whitesmoke;
+  margin: 16px auto;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+.row:last-of-type .col-3 div:first-of-type{
+  margin-top: 0;
+}
+.row:last-of-type .col-3 div:last-of-type{
+  margin-bottom: 0;
+}

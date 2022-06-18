@@ -1,0 +1,21 @@
+.col-3 p{
+  margin-left: 20px;
+}
+a{
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  background-color: deeppink;
+  color: darkgray;
+}
+.col-9 p{
+  margin-bottom: 0;
+}
+.col-1{
+  margin: auto;
+}
+.col-9 .row:hover{
+  background-color: deeppink;
+  color: darkgray;
+}
